@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function greet(name) {
+            console.log("Hello Good Morning " + name);
+        }
+        let name = "anonymous"
+        greet(name);
+        setTimeout(greet, 2000, "Anoymous new printout");
+
+
+
+
+        setTimeout(function newfunc(text) {
+            console.log("Hello " + text);
+
+            setTimeout(function () {
+                console.log("Heelo its second event");
+            }, 1000);
+
+            setTimeout(function () {
+                console.log("Hello its third event");
+            }, 2000);
+
+            setTimeout(function(){
+                console.log("Hello its fourth event");
+            },3000);
+            
+            setTimeout(function(){
+                console.log("Hello its fifth event");
+            },4000);
+
+            setTimeout(function(){
+                console.log("Hello its sixth event");
+            }, 5000);
+            
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 6000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 7000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 8000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 9000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 10000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 11000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 12000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 13000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 14000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 15000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 16000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 17000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 18000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 19000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 20000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 21000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 22000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 23000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 24000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 25000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 26000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 27000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 28000);
+            setTimeout(function(){
+                console.log("Hello its seventh event");
+            }, 29000);
+
+        },1000);
+
+
+
+
+
+    </script>
+</body>
+
+</html>
